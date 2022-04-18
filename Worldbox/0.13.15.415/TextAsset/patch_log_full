@@ -1,0 +1,589 @@
+
+##0.4.143
+- [PC] added: VSync option. If you have issues with game having 900+ fps try to switch it
+- [PC] added: SPACE hotkey. Pause/Unpause game
+- added: stat tip when you click on unit stats icons in creature window  
+- added: actual units will be shown in creature windows instead of race icons
+- added: beasts population
+- added: population/game time statistics to main panel 
+- changes: pyromaniac trait won't start random fires in their own village. Instead, they will start fires only when fighting/attacking others.
+- changes: adjustments for some trait's stats
+- changes: increased damage for all races
+- changes: better settings window
+- changes: added patch notes screen back into toolbar(other)
+- changes: changed creature window layout
+- changes: borders will only grow from zones, where cities have their own buildings
+- fixed: cities keep changing kingdoms in war
+- fixed: laggy sponge after prev update
+- fixed: some saves won't load correctly
+- fixed: hunger deaths not counted into statistics
+- fixed: water bomb not exploded when using rain on it
+- fixed: dragon not exploding landmines when landing
+- fixed: new units spawn with not full health 
+
+##0.4.141
+- added: 9 new powers
+- added: infinity coin - removes 50% of creatures from the world
+- added: madness - makes creatures mad
+- added: inspiration - makes non-capital cities make their own kingdoms
+- added: blood rain - restore health for creatures
+- added: living plants - makes any plant come to life
+- added: living houses - makes any building come to life. Because why not
+- added: blessing - bless creatures to make them stronger
+- added: divine light - remove madness, infection and plague. Also kills zombies and demons
+- added: plague. Start contagious disease
+- added: old age. Creatures could die from an old age now. Races have different life expectancy 
+- added: new world law. Old age - enable/disable
+- added: trait system with 43 traits. Some of them will work fully and start make sense only after Diplomacy(!) update
+- added: units have a chance to get random traits that affect their stats. And some units will born with special traits
+- added: babies have higher chance to get traits from parents
+- added: tip for unit-favorite button
+- added: "children" stat for creature window
+- added: death by natural/other cause in world stats
+- added: units will regenerate health after eating
+- added: new world stats. Deaths due to old age, hunger, eaten, plague and other.
+- added: kingdoms have a higher chance to build new cities close to their capital
+- added: Easter egg
+- added: zombies have chance to infect creatures after a bite
+- added: infected units can turn into zombies after death or after some time
+- added: put full lifetime patch log into public google doc. Link in the game and the website as well
+- added: new stats for units. Armor, dodge, accuracy
+- added: different max age stat for races. Elves will live longer than humans, for example. After unit reach max age, he have a chance to die from an old age. Such as life
+- added: different grow up time for different races. Orcs will become adults faster than elves, for example
+- fixed: buildings on minimap have wrong icons
+- fixed: abandoned buildings on minimap shown as normal
+- fixed: [PC] T key launches tutorial
+- fixed: pixels fall in wrong location on higher game speeds
+- fixed: total deaths won't increase after babies are grown into adults anymore 
+- fixed: units have full health after they grow up
+- fixed: lightning doesn't do damage sometimes
+- fixed: units lose name and stats after turning into zombie
+- fixed: wrong pixel spawn point for volcano/geysers 
+- fixed: wrong random spawn position for clouds
+- fixed: kingdom window shows wrong amount of buildings
+- fixed: tornado life time was incorrect
+- fixed: game crash sometime, when baby in destroyed city grows up 
+- fixed: units still attack monsters for some moments, after you switch peaceful monsters world laws 
+- fixed: health is not restored for buildings, when they upgrade
+- changes: you can chop dead trees with an axe
+- changes: dead units will shown as grey pixels for a few moments on minimap
+- changes: fire is much easier to stop when using rain now
+- changes: grass/forest tiles have lower chance to catch fire from adjusting burning tiles. No more full world bonfire after a small sparkle
+- changes: you can remove Tornadoes with Sponge now
+- changes: moved show kingdom list into kingdoms tab
+- changes: updated some icons
+- changes: new spawn effect
+- changes: elves are now friendly with carnivore animals
+- changes: one month in the game changed from 12sec into 3sec
+- changes: bandits, cold ones and demons can turn into zombies now
+- changes: some unit stats
+
+## 0.4.136
+- updated under-the-hood engine stuff. Hopefully it fixes some stability issues for some of the android devices
+- added: tutorial
+- added: [PC] WASD+arrow keys to move camera. 
+- added: [PC] Q,E and +- keys to control zoom via keyboard 
+- added: [PC] hotkeys to select power tabs 1,2,3,4,5,6 
+- added: [PC] quit game dialog via escape button
+- added: confirmation dialog for saving/loading saved worlds
+- fixed: 3rd square brush doesn't work
+- fixed: 3rd circle brush is the same as 4th
+- fixed: some typos with translations
+- fixed: napalm doesn't remove snow
+- fixed: placing mines removes village borders
+- fixed: [PC] selected power tab not unselect when you press ESC/back button 
+- fixed: existing grey goo doesn't work after loading
+- fixed: ufo can't be destroyed by lightning
+- changes: tornado life changed from 35 seconds to 15 seconds
+- changes: manually spawned civ-units will have age of 18
+
+## 0.4.133
+- added: new powers: axe, demolish, grenade, napalm bomb
+- added: units will be shown on minimap as pixels
+- added: 12 more brush shapes
+- added: window to view all kingdoms, to see kingdom info, change it's name and see statistics 
+- added: shortcut buttons to open kings info, kingdom, home village 
+- added: news section
+- fixed: "don't try this at home" achievement
+- fixed: house upgrades destroy main buildings
+- fixed: units turn into invisible killing machines, if the house they stay inside is destroyed
+- fixed: units get damaged by fire/grey goo/lava on pause
+- fixed: kids lose favorite icon after growing up
+- fixed: ui scale tweaks for PC version
+- fixed: bomb don't drop sometime on click
+- fixed: human and dwarven kingdoms don't grow as fast, because wheat fields get stuck in "road blocks"
+- fixed: units attack other kingdom buildings when "forever peace" is on
+- fixed: units have resources blinking on their backs
+- fixed: some translations
+- changes: more words added into city-names-generator blacklist
+- changes: icons for save/load/delete in save slots menu
+- changes: increased amount of food from farms fields from 1 to 2 
+- changes: capital city nameplates have priority to show over non capitals 
+- changes: fire looks a bit nicer
+- changes: sickle will remove wheat
+- changes: life eraser will only kill creatures now. Borders and buildings are destroyed by "demolish" tool
+- changes: bomb won't set fire on tiles
+- changes: increased damage to units from bombs 
+- changes: king will be selected in kingdom with 1 village if it have big population too
+- changes: improved sprites for ruins, volcano and geysers 
+
+## 0.4.129
+- added: PC version released! Available on superworldbox.com 
+- added: we are on reddit! Added a link in the game. Join us!
+- added: kingdoms
+- added: new city nameplates with kingdom capital icons
+- added: kings
+- added: village leaders
+- added: villager babies for all civilization-races
+- added: genders for civilization-races
+- added: 5 world laws that can be set on/off for every world! Forever peace between kingdoms, peaceful monsters, hunger, grow trees, grow grass. More to come later.
+- added: hunger
+- added: abandoned buildings
+- added: map previews in saves will show buildings
+- added: road tiles will deteriorate in non-village-zones
+- added: plant crops by using seeds power on farm fields yourself
+- added: units will try to put out fires in villages
+- added: newly spawned race-unit by player will make new city and kingdom when spawned outside of their own race borders
+- added: kingdoms will try to make new colonies far from existing borders on farmable soil
+- added: ability to mark unit as favorite from "inspect creature" window. Favorite units will have special icon
+- added: villagers could stay and chill in houses if they don't have work
+- fixed: cold ones break ice
+- fixed: vignette/bloom option doesn't save
+- fixed: rain not affecting lava
+- fixed: tornado not removing lava
+- fixed: lightning damage radius
+- fixed: buildings spawn animation
+- fixed: grass grow on burned tiles after UFO attack
+- fixed: units won't attack unfinished buildings
+- fixed: bush can spawn on wrong tiles via seeds
+- fixed: tnt creates soil after explosion
+- fixed: orc buildings shown as stone instead of wooden on minimap
+- fixed: villagers building houses when not needed
+- fixed: grey goo not removing borders
+- fixed: fixed non english names for cities not rendering
+- fixed: can't place volcanoes, etc on mountain/hills tiles 
+- fixed: burned tiles not clear up sometimes
+- fixed: animals always walk to the corner of the map 
+- changes: improvement for tiles and ground
+- changes: improvement for buildings graphics and details
+- changes: improved unit animations
+- changes: starting generated world size from 3/4 to 2/3 for faster startup loading times
+- changes: dropping fire sparks removes grass
+- changes: decreased fire spread time
+- changes: farm field will turn into soil after fire
+- changes: increased chance to grow vegetables from seeds
+- changes: grass is burnable now
+- changes: units will stay in villages if they was spawned in it's borders, even if village doesn't have houses
+- changes: increased number of farm plots per village 
+- changes: new unit cost from 10 to 1 food
+- changes: renamed tab humanoids into kingdoms. Moved everything related to civilizations there from other tabs. Moved zombies, demons, etc into monsters tab.
+
+## 0.3.122
+- fixed: random black pixels on minimap
+- fixed: building half scaling
+- fixed: trees removed with wrong animation
+- fixed: earthquake doesn't destroy buildings
+- fixed: life eraser won't remove village borders
+- fixed: only half of a map could load
+- fixed: trees won't grow on dead trees again
+- changed: dead tree icon on minimap
+- changed: orc building's graphics tweaks
+
+## 0.3.120
+
+- added: new tiles and buildings graphics 
+- added: minimap when zooming out to improve performance and battery life
+- added: tips in loading screen
+- added: inspect power/window for creatures
+- added: age/born values into village window
+- added: animation for animals when they eat grass
+- added: better farming mechanic. Farmers will lay crops and harvest wheat
+- added: using rain on wheat will make it grow faster
+- added: shallow waters can be turned into ice
+- added: ice will break when units walk on it
+- added: units can build in pits now
+- added: resource storage limit for villages 
+- added: lava will burn nearby tiles
+- added: lava will unfreeze nearby tiles
+- added: seeds will turn soil into grass
+- added: finger will copy frozen/grass/water/road blocks now
+- added: better village borders
+- added: trees/grass can grow on a place, where elf dies
+- added: selected power tab will turn red
+- added: more bugs?
+- fixed: next Santa die immediately
+- fixed: units having wrong position
+- fixed: chickens doesn't hatch from eggs after last hotfix
+- fixed: ant-world achievement
+- fixed: villagers collect herbs under building/trees
+- fixed: game blinks after preloading
+- fixed: trees won't grow on dead trees
+- fixed: resources won't spent when buildings are upgraded
+- fixed: buildings are placed on water corners sometimes
+- fixed: long range invisible building's tiles 
+- fixed: villagers won't chop trees after loading save
+- fixed: stone can be placed in water
+- fixed: creatures born stat not showing
+- fixed: resources have ruins
+- changed: updated translations
+- changed: back button now red
+- changed: other small ui changes
+- changed: rain drops have bigger effect range
+- changed: 1000 creature born achievement
+- changed: lowered amount of resources in deposits
+- changed: villagers won't "eat" grass anymore
+- changed: graphics for resources and mines are smaller
+- changed: increased falling speed for TNT/landmine/fireworks blocks
+- changed: lava
+- changed: landmine explosion range from 6 to 3
+- changed: demons will be getting damage in water, instead of dying instantly
+- changed: decreased tornado despawn timer from 75 sec to 35 sec
+- changed: decreased lightning damage
+- changed: moved new world button into custom world menu
+- changed: less mountains in generated worlds
+- changed: elves can built farms now
+- changed: bushes can be removed for new village buildings
+- changed: more space between buildings in village
+- changed: cacti and palm trees can grow by itself  
+- changed: fruit bushes can grow on grass by itself
+
+## 0.2.108
+- added pickaxe power to remove resources
+- added chickens
+- added cats
+- added rabbits
+- added more sounds
+- added limit to sheep and animals per island
+- added animation for trees falling down after they being chopped down
+- added ARM64 support. Game should load faster on some devices
+- added Swedish, Finnish and Hebrew languages
+- made apk size smaller
+- wolves and other carnivores will attack peaceful animals only when hungry
+- improved animals logic. Sheep will try to stay in group. Wolves will move in pack
+- improved fights logic/reduced knockback
+- changed: sponge won't remove resources anymore
+- smaller save files + faster save/load times
+- citizens will bring resources to near building now
+- nomads won't join overpopulated villages anymore
+- zombies are stronger now
+- fixed TNT doesn't do damage
+- fixed zombie walks with rotation
+- fixed bushes grow on TNT/mines
+- fixed some buttons not having click sound
+- fixed animals doesn't reproduce after loading save
+- fixed heatray low damage
+- fixed tornado destroys gold/stones/volcano
+- big under the hood code improvements
+
+## 0.2.97
+- added more sounds! Mining, chopping, ufo, resources spawn and more
+- reworked power bar UI. Added tabs
+- fixed trees grow on burned tiles
+- fixed dwarf heads
+- fixed villages borders
+- fixed villages have population, even there's no people
+- fixed printer
+
+## 0.2.95
+- added mining/chopping/building animation
+- fixed saves getting deleted 
+- fixed santa animation
+- fixed grey goo doesn't destroy villages
+- fixed piranhas die near shores
+- fixed some typos
+- changed icons for width/height in world generator
+
+## 0.2.90
+- added more save slots
+- added pine trees, cacti, palm trees
+- added portrait/landscape button switch
+- added villager backpacks
+- added create berry bushes, stone, iron, gold powers
+- added resource system. Now villages collect resources to build
+- added mine building
+- villages now require food to create new citizens
+- fixed reward timer bouncing around
+- updated credits screen
+- you can wake up dragon by tap
+- fix village doesn't lose zones when buildings destroyed
+- fixed lightning damage
+- many other fixes
+
+## 0.2.75
+- new power: Dragons
+- new power: UFO
+- new power: Seeds
+- new power: World Stats
+- added new sounds for powers
+- added landscape mode. It will auto rotate if your device has auto-rotate on
+- added Dutch and Indonesian languages
+- added 3d sounds(still testing)
+- regular TNT now works as previously delayed TNT worked
+- delayed TNT explodes after 5 sec now
+- burned tiles stay longer
+- increased damage from atomic/tsar bomb to units
+- heatray destroys roads and conway's game of life
+- improved road placing logic. Should be a little less of a mess now
+- fixed heatray increasing heat before ray hit the ground
+- fixed can't erase units when they are in water
+- fixed UI slightly visible on transition screen
+- fixed no restore button on iPad
+- fixed missing pixels in human building sprites
+- fixed Santa not dealing damage to units when killed
+- fixed buildings gets destroyed near shores from corrosion
+- fixed builders create big squares from roads
+- fixed buildings/tress are removed immediately instead of getting destroyed by lava sometimes
+- UI and world optimizations
+
+[ ] effect when building break
+
+## 0.1.70+
+- added new building system
+- added building upgrades. Now civilization improve their buildings as the time goes
+- added trees
+- added blacklist check for inappropriately generated town names
+- added Romanian and Hungarian languages. Updated other languages 
+- new building sprites for humans, elves, orcs and dwarves
+- new sprites for geysers/volcano
+- improved town zone spread logic
+- towns can lose zones when/after buildings are destroyed
+- added error log by date. On Android can be found at Android/data/com.mkarpenko.worldbox/files/logs/
+- fixed Santa smoke trail
+- fixed hours in statistics
+- fixed black hole doing no damage
+- improved lava performance
+- animation optimizations
+- fixed ants trying to swim to an island
+- other fixes
+
+## 0.1.53
+- fixed world saving/loading (please use new save or remove old cities from previous one)
+- fixed towns produce units and increase borders on pause 
+- fixed building never finished if it was half-built on save 
+- fixed zombies turn any race units into humans
+- fixed Czech language enables Chinese
+- fixed missing credits
+- grey goo makes 10x more damage to units now
+
+## 0.1.50
+- new power: display village borders
+- new power: select village, where you can change village name and see some information about village
+- added: translation credits. If you want to see your language improved or added - write me to m.kendja@gmail.com
+- added: flip animation
+- added: unit skin system. Units will have different heads and weapons. Professions are coming soon
+- added: different holding weapons/tools for units
+- added: swimming animation
+- added: village name power is now a toggle
+- added: piranhas are dangerous now
+- added: new icon for custom maps
+- added: chinese language
+- decrease grass growth timeout by 40% after fire
+- pause game when window is open
+- demons will die in water now
+- changed procreate logic for sheep
+- changed custom map, village names icon
+- ui improvements
+- fixed: antimatter bomb doesn't kill creatures
+- fixed: delayed tnt not explode after being burned
+- fixed: random pixels after generating new map if previous map had falling pixels in air
+- fixed: some save won't load correctly
+- fixed: tornado having damage effect
+- fixed: units random shake animation
+- fixed: tumors grow through water/mountains
+
+## 0.1.40
+- NEW city system. Villages grow huge now
+- new power: create bears
+- new power: create zombies
+- civilizations will send out explorers to other islands to establish new colonies
+- units will spawn from homes in villages
+- grass will grow faster after being eaten 
+- grass/trees will grow longer after fire 
+- decreased rate with which units build new villages
+- you can zoom out much further now 
+- increased window slide animation
+- added animation when units build/farm/collect herbs
+- updated Polish, Spanish, Persian languages
+- improved unit fighting
+- trees will grow after rain
+- farms are built only after village have 10+ population
+- fixed: demons burn water
+- fixed: units not getting damage on center of volcano 
+- fixed: units won't clean ruins sometime
+- fixed: buildings destroyed after one punch
+- fixed: zoom level not resetting on generation/loading
+- fixed: units immediately being spawn after being killed
+- fixed: units stop building after fights sometime
+- fixed: units shaking when paused
+- fixed: units attack buildings that not started constructing yet
+- fixed: city names showing in bad position
+- fixed: ghost roads appear after loading sometime(for sure this time!)
+- fixed: tumor spawners disappear after loading the game
+- fixed: animals walk around island left bottom corner 
+- fixed: animals find mates on far lands
+- optimizations
+
+## 0.1.38
+- iOS release!
+- new power: pause
+- new power: anti-matter bomb
+- added explosion effect when santa hits the ground
+- added snow tiles generationg at mountain peaks
+- added transition effect when loading/generating worlds
+- improved drawing. Lines are drawn between touches to avoid gaps
+- updated German and Italian translations
+- added Persian translation
+- fixed life eraser removes volcanoes
+- fixed ghost roads appear after loading sometime
+- change: sponge won't remove roads anymore
+- optimizations
+
+## 0.1.36
+- new power. God Finger
+- new power. Bowling ball
+- new power. Fireworks
+- added congratulation effect when achievement is unlocked
+- added more variations for generated world. Desert islands, forest islands, etc
+- added new effects for bomb/meteorite/nukes/czar
+- added Portuguese language
+- added Italian language
+- added new achievement
+- added sheep to loading screen
+- new world save format. Saves are created/loaded faster and are smaller size
+- improved world generation. Frozen tiles will only spawn on north/south poles now
+- improved bomb spawn when clicked with small brush sizes
+- fixed 15 units per city bug
+- fixed roads after loading bug
+- fixed goo tiles not load
+- fixed tnt explodes when cooling
+- fixed explosives don't do damage to creatures
+- tornadoes destroy roads now
+- vortex is now free
+- sheep need to eat more before reproducing 
+- new grass won't grow so fast if it was eaten
+- wolves can reproduce now
+- ui improvements
+- added BAAH!
+
+## 0.1.35
+- new power. Spawn demon
+- new power. Fuse
+- new power. Acid Geyser
+- new powers. Spawn rain/acid and lava clouds
+- !! fixed game doesn't work when device language is set to Spanish
+- units are able to attack and destroy enemy buildings now
+- fixed piranhas do not die on ground without water
+- dwarf buildings won't burn anymore
+- added help when unable to unlock premium
+- unselect power when opening window to prevent missclick
+- longer achievements popup time
+
+## 0.1.33
+- added custom map generation. You can choose much bigger size than a standard map
+- added achievements window and enabled achievements
+- added a button to enable/disable ambient sounds. Building, random sheeps, punches, etc
+- added center camera after map generation
+- added effect for a heat ray
+- fixed santa spawn bug
+- fixed creatures not killed when out of map bounds
+- fixed tornado stuck at map border after using force
+- fixed premium locked when offline/no internet
+- fixed city names overlap each other
+- improved game loading speed
+- improved map generating speed
+- improved explosion performance
+- improved saved map previews
+- improved village name generation. Different races will have unique generated name templates
+- updated German/French languages translations
+- added Japanese and Korean translations
+- bigger explosion radius for meteorite
+- ui improvements
+- creep/tumor will be set on fire when using heatray on it
+- building and sheep sounds are bit quieter
+- using "increase temperature" on TNT/mines will explode them
+- life eraser will also remove/destroy buildings and roads now
+- rain will extinguish fire in bigger range now
+
+## 0.1.23
+- added sound effects. Some of them are temporary and are subject to change. All feedback are welcome!
+- added discord. Feel free to contact me there
+- new power: Robot Santa. Can be stopped with lightning
+ strike
+- TNT/mines/water bomb tiles will explode when heated with a heat ray
+- striking with lightning on volcano will spawn a lot of lava
+- striking with lightning on geyser will spawn a lot of water
+- striking with lightning on tornado will split it
+- striking with lightning on lava/water will splatter pixels around
+- tornado will die out after a while by itself
+- removed ability to spawn tumor on water and mountains
+- sponge also removes building ruins and roads
+ now
+- ui improvements
+- stability improvements
+- secrets
+
+## 0.1.20
+- new power - Hourglass. Changes the flow of time. Increased time can work in unpredictable ways! 
+- new power - Spawn Worm. Crawls underground and messing up with the landscape
+- new power - Heat. Hold to heat up the pixels
+- new power - Spawn Tsar Bomba. This one bad boy can destroy the whole world. Have fun
+- new power - Tornado. Scatters pixels around and pull creatures to itself
+- added Loading Screen with new artwork piece
+- lightnings heat up pixels now. Multiple strikes can turn ground into the lava, etc 
+- improved game loading times
+- force power won't damage creatures anymore
+- back button can close opened windows and unselect selected powers now
+- fixed some z render bugs
+- other minor bugs
+- added new shiny facebook button, where you can leave public feedback
+
+## 0.1.19
+- new power - Villages Info: displays population and names for all Villages 
+- new power - Spawn Bandits: dangerous boys who like to play with TNT and fire. Watch out!
+- new power - Spawn Cold Ones: remainders of an ancient race, who freeze the ground around them
+- new power - Spawn Piranhas
+- added directional arrows on Power Bar at the bottom 
+- lowering temperature on pixel will cool off lava
+- printer won't be killed by "game of life" or mine anymore
+- stability/crash fixes
+- english typos fixes
+- fixed selected power tip going out of bounds
+- fixed Statistics window not being updated
+
+## 0.1.18
+- added German, French, Spanish, Polish, Czech, Slovak, Turkish languages
+- you can move camera with two fingers, when "draw" type power, like Finger/Sand/etc is  selected now
+- smoother zoom controls
+
+## 0.1.17
+- added multi language support. Looking for translators to help to add your language to the game!
+- added Russian language
+- added outline for selected power description
+- font changes
+- bigger close buttons for window ui
+
+## 0.1.16
+- added save/load tab
+- better camera controls. It's now possible to zoom and move camera when power is selected
+- fixed frozen tiles not cleared on new map generation
+- improved world generation variations
+- improved world generation speed
+- acid removes Game of Life and grey goo now
+- TNT and landmines explode when dropped in lava now
+- various optimisations
+- added ui decorations
+
+## 0.1.15
+- added welcome screen
+- added patch log screen
+- fixed freeze when using bucket
+- fixed creatures doesn't move when volcano is active
+- fixed lava not removed when using shovel
+- made UI size bigger a bit
+- selected power tip shown longer
+- made fire doing less damage to creatures
+- fonts size tweaks
+
+## 0.1.13
+
+Initial Beta Release

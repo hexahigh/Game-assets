@@ -1,0 +1,76 @@
+## 0.13.15
+- fixes: Some performance fixes
+- fixes: Some stability fixes
+
+
+## 0.13.14
+- fixes: Some performance fixes
+- fixes: Some stability fixes
+
+
+## 0.13.13
+- fixes: Some performance fixes
+- fixes: Some stability fixes
+
+
+## 0.13.12
+- changes: Faster loading times
+- changes: Removed lots of libraries
+- fixes: Some stability fixes
+
+
+## 0.13.11
+- fixes: tutorial won't show up sometimes
+- fixes: welcome message won't show up sometimes
+- fixes: autosaves doesn't work sometimes
+- fixes: Empty slot folders may have crashed save window
+- fixes: Tooltip for save slot is not cleared, when you delete the world
+- fixes: Don't show slots available that don't have a map in it
+- changes: tutorial can be skipped even on first launch now(yes, arrrgh!)
+- fixes: Some stability fixes
+
+
+## 0.13.10 - Performance go brrr
+- changes: If a game error happens, the console will pop up
+- fixes: Clean up unsuccessful autosaves
+- fixes: Achievement popup would show lower and smaller than needed
+- fixes: Performance improvements for longer games
+- fixes: Some stability fixes
+
+
+## 0.13.9
+- fixes: Some stability fixes
+
+
+## 0.13.8
+- changes: New map loader! It will make the sheep go round and round brrr
+- changes: Smaller console font size
+- fixes: Some save slots showed up as existing, although there was no map inside
+- fixes: Some people could not get any ads
+- fixes: Some iOS devices had freezes
+- fixes: Soft crash when checking kingdom relations
+- fixes: Some freezes here and there
+
+
+## 0.13.7
+- fixes: Potential issue when trying to spectate a dead unit from history log
+- fixes: Old save files with cultures that don't exist, could cause issues
+- fixes: Grass growth could cause some soft crash
+- fixes: Some older save files could cause an issue when trying to preview it
+- fixes: Stability fixes
+
+
+## 0.13.6
+- fixes: Errors when trying to load maps sometimes
+- fixes: Samsung S-Pens should work now!
+- some performance updates
+- some stability improvements for mobile version
+
+
+## 0.13.5
+- changes: Show regional price savings where available
+- fixes: Landmines had too low chances of blowing up
+- fixes: errors when trying to load autosave sometimes
+- fixes: Smol Crabzilla fixes
+- some performance updates
+- some stability improvements for mobile version
