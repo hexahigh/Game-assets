@@ -1,4 +1,4 @@
-# So uh apperantly i cant push new files using git so new games and updates will be added from the Releases page.
+# So uh apperantly i cant push new files using git, so new games and updates will be added from the Releases page.
 
 # Assets from multiple games.
 
