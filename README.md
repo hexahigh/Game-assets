@@ -1,5 +1,11 @@
-Assets from multiple games.
-All files were collected by me, if it wasnt i would leave credits.
+# Assets from multiple games.
+
+Most were collected by me, Credits are at the bottom.
 
 You can request games here: mailto:hexahigh@protonmail.com
 (Note that if the game wasnt made in unity or has its files in the open it might take longer to add them here)
+
+# CREDITS
+- My parents for creating me.
+- lyhyl for creating TDEdecrypt so i could add Teardown. [Check em out](https://github.com/lyhyl)
+- The creators of AssetStudio so i could export game files. [Link](https://github.com/Perfare/AssetStudio)
